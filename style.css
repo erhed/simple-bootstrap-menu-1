@@ -1,0 +1,16 @@
+.contentContainer {
+  margin: 40px;
+}
+
+.collapseButton {
+  width: 100%;
+  background: rgb(212, 211, 228);
+  border-bottom: 1px solid lightgray;
+  padding: 16px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.collapseContainer {
+  border-bottom: 1px solid lightgray;
+}
