@@ -5,10 +5,21 @@
 .collapseButton {
   width: 100%;
   background: rgb(212, 211, 228);
-  border-bottom: 1px solid lightgray;
+  border: none;
   padding: 16px;
   text-align: left;
   font-weight: bold;
+  color: rgb(65, 62, 90);
+  user-select: none;
+}
+
+.collapseButton:hover {
+  background: rgb(199, 197, 219);
+  color: rgb(40, 38, 59);
+}
+
+.collapseButton:focus {
+  outline: 0;
 }
 
 .collapseContainer {
